@@ -1,0 +1,13 @@
+security:
+  oauth2:
+    client:
+      client-id: xiao2
+      client-secret: jianjun2
+      user-authorization-uri: http://127.0.0.1:8090/server/oauth/authorize
+      access-token-uri: http://127.0.0.1:8090/server/oauth/token
+    resource:
+      jwt:
+        key-uri: http://127.0.0.1:8090/server/oauth/token_key
+server:
+  port: 8092
+  context-path: /client2
